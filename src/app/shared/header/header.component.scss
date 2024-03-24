@@ -1,0 +1,15 @@
+header {
+    font-family: "Poppins", sans-serif;
+    color: #2a2a2a;
+    padding: 36px 65px;
+    justify-content: space-between;
+}
+.header-tab {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.active {
+    border-radius: 4px;
+    border-bottom: 3px solid #2a2a2a;
+}

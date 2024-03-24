@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/custom_styles/variables.scss';
+@import './assets/custom_styles/utility.scss';
+@import './assets/custom_styles/grids.scss';
+@import './assets/custom_styles/fonts.scss';
+@import './assets/custom_styles/buttons.scss';
+
+
+body{
+    margin:  0 !important;
+}

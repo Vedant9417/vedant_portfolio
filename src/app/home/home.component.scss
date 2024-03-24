@@ -1,0 +1,52 @@
+.home_container {
+    font-family: "Poppins", sans-serif;
+    width: 70%;
+    height: calc(100vh - 120px);
+    color: #2a2a2a;
+    background-color: #fff;
+    position: relative;
+    margin: auto;
+    .right {
+        width: 50%;
+        .image_conatiner {
+            position: absolute;
+            border-radius: 50%;
+            height: 350px;
+            width: 350px;
+            overflow: hidden;
+            top: 20%;
+            right: 55%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .left {
+        width: 50%;
+        text-align: start;
+        p{
+            margin: 0px !important;
+            color: rgb(85, 85, 85);
+        }
+        .text_container{
+            align-items: center;
+        }
+        .title {
+            font-family: 'Nunito-Bold';
+            font-size: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .button_container{
+            width: 80%;
+            justify-content: space-evenly;
+            align-self: center;
+            text-align: center;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
